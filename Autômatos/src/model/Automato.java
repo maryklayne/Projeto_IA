@@ -67,7 +67,8 @@ public class Automato {
 	void imprimi(){
 		for(int i = 0 ; i < 10 ; i++){
 			for(int x = 0 ; x < 10 ; x++){
-				System.out.print(matriz[i][x].getEstado()+" ");
+				Cell temp = matriz[i][x];
+				System.out.print(temp.getEstado());
 			}System.out.println("\n");
 		}
 	}
