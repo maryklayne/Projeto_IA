@@ -25,7 +25,7 @@ public class BuscarRegras {
 		this.regrasLista = regras;
 	}
 	
-	void imprimir(){
+	void imprimir(String[] regrasLista){
 		for(int x = 0 ; x < this.regrasLista.length ; x++){
 			System.out.println(this.regrasLista[x]);
 		}

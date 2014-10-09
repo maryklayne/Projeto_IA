@@ -1,6 +1,5 @@
 package model;
 
-
 public class Teste {
 
 	public static void main(String[] args) {
@@ -36,7 +35,7 @@ public class Teste {
 		
 //		System.out.println(bb.getRegra());
 		
-		bb.imprimir();
+		bb.imprimir(bb.getRegrasLista());
 
 
 	}
